@@ -72,7 +72,6 @@ Sinta-se livre para usar, modificar e contribuir!
 
 ---
 ## 👨‍💻 Autores
-## 👨‍💻 Autores
 
 | [<img src="https://github.com/rhuanlucasdev.png" width="100px;" alt="Rhuan Lucas"/>](https://github.com/rhuanlucasdev) | [<img src="https://github.com/Lyguinees.png" width="100px;" alt="Pedro Lucas"/>](https://github.com/Lyguinees) |
 |:---:|:---:|
