@@ -51,7 +51,6 @@ Nosso objetivo é expandir o sistema de sobrevivência original, adicionando **m
 2. Clone este repositório:  
    ```bash
    git clone https://github.com/rhuanlucasdev/SurvivalPlus.git
-  bash```
 3. Importe o projeto no IntelliJ IDEA ou Eclipse.
 4. Compile e rode no ambiente de desenvolvimento do NeoForge.
 
