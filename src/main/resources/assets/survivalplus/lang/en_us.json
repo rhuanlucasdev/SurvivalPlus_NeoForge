@@ -1,5 +1,11 @@
 {
   "item.survivalplus.rope": "Corda Primitiva",
+  "item.survivalplus.steel_ingot": "Barra de Aço",
 
-  "block.survivalplus.bismuth_block": "Bloco de Bismuth"
+
+  "block.survivalplus.bismuth_block": "Bloco de Bismuto",
+  "block.survivalplus.bismuth_ore": "Minerio de Cromo",
+
+  "creativetab.survivalplus.bismuth_items": "Itens de Bismuto",
+  "creativetab.survivalplus.bismuth_blocks": "Blocos de Bismuto"
 }

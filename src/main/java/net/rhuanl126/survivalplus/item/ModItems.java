@@ -12,6 +12,9 @@ public class ModItems {
     public static final DeferredItem<Item> ROPE = ITEMS.register("rope",
             ()-> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> STEEL_INGOT = ITEMS.register("steel_ingot",
+            ()-> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
