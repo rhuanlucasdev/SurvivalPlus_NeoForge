@@ -45,15 +45,6 @@ Nosso objetivo é expandir o sistema de sobrevivência original, adicionando **m
 
 ---
 
-## 📂 Estrutura Atual do Projeto
-📦 survivalplus
-┣ 📂 src/main/java/net/rhuanl126/survivalplus
-┃ ┣ 📂 client → HUDs e renderizações personalizadas
-┃ ┣ 📂 temperature → Cálculo de temperatura por bioma/altura
-┃ ┣ 📂 capability → (futuro) Armazenamento de atributos como fadiga e sede
-┃ ┗ SurvivalPlus.java → Classe principal do mod
-┗ 📂 resources → Texturas e arquivos de configuração
-
 ## 💡 Como Rodar o Projeto
 
 1. Baixe o **Minecraft + NeoForge** (versão correspondente ao mod).  
