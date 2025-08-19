@@ -37,8 +37,8 @@ public class SurvivalPlus {
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
-        // Cria instância do FoodDecay (para rodar o tick do servidor)
-        new FoodDecay();
+        // Cria instância do FoodDecay (roda tick de decomposição e barrinha)
+        NeoForge.EVENT_BUS.register(new FoodDecay());
 
         // Registra o item/aba criativa
         modEventBus.addListener(this::addCreative);
@@ -48,7 +48,7 @@ public class SurvivalPlus {
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {
-        // Configurações iniciais do mod
+        LOGGER.info("SurvivalPlus setup iniciado com sistema de decomposição de comida!");
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
@@ -66,6 +66,6 @@ public class SurvivalPlus {
 
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
-        // Código para rodar quando o servidor iniciar
+        LOGGER.info("Servidor iniciando com SurvivalPlus ativo!");
     }
 }
